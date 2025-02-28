@@ -8,13 +8,13 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=libfmt
-PKG_VERSION:=11.1.1
+PKG_VERSION:=11.1.3
 PKG_RELEASE:=1
 
 PKG_SOURCE_NAME:=fmt
 PKG_SOURCE:=$(PKG_SOURCE_NAME)-$(PKG_VERSION).tar.gz
 PKG_SOURCE_URL:=https://codeload.github.com/fmtlib/$(PKG_SOURCE_NAME)/tar.gz/$(PKG_VERSION)?
-PKG_HASH:=482eed9efbc98388dbaee5cb5f368be5eca4893456bb358c18b7ff71f835ae43
+PKG_HASH:=67cd23ea86ccc359693e2ce1ba8d1bab533c02d743c09b15f3131102d0c2fc1c
 PKG_BUILD_DIR:=$(BUILD_DIR)/$(PKG_SOURCE_NAME)-$(PKG_VERSION)
 
 PKG_MAINTAINER:=Othmar Truniger <github@truniger.ch>
